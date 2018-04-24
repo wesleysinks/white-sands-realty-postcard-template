@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>5.5 x 8.5 Post Card Template</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Guide Images -->
+    <!-- <img id="front-guide" src="img/postcard_front.png" alt="">
+    <img id="back-guide" src="img/postcard_back.png" alt=""> -->
+    <h1 class="toplabel">TEMPLATES</h1>
+    <ol id="instructions">
+      <li>Hold ctrl and tap "-" several times to zoom out</li>
+      <li>Click text fields and images under "TEMPLATES" to edit</li>
+      <li>When finished, click the "Render Images" button</li>
+      <li>Right click, select "Save As" on each image under "RESULTS"</li>
+      <li>Images are rendered at 300dpi * 8.75 x 5.75 inches (2625 x 1725px) in JPEG format per ProspectsPlus recommendation</li>
+    </ol>
+    <h1 class="toplabel">RESULTS</h1>
+    <h1 class="labelfront">FRONT</h1>
+    <section id="front">
+      <header>
+        <img class="mark" src="img/mark.svg">
+        <section>
+          <input class="cormorant white" type="text" name="heading" value="Just Listed">
+          <input class="roboto dark wide bold" type="text" name="address" value="4275 Acorn Circle | Sarasota, Florida">
+        </section>
+      </header>
+      <div>
+        <div id="main-container">
+          <div id="price-banner">
+            <input class="caveat black" type="text" name="price-banner" value="NEW on the Market">
+            <input class="roboto tan bold" type="text" name="price" value="$669,900">
+          </div>
+          <input type='file' id="imgInp" accept="image/*">
+          <img id="mainImg" src="img/feat1.jpg" alt="Main Property Image">
+        </div>
+      </div>
+      <footer>
+        <div id="logo">
+          <img src="img/WhiteSands_white.svg">
+          <input class="caveat black" type="text" name="tag" value="Live in Paradise!">
+        </div>
+        <div id="agtinfo">
+          <input class="roboto dark" type="text" name="listedby" value="Listed and Marketed by">
+          <input class="roboto white caps wide" type="text" name="agent" value="Michael Burke  941.345.3953">
+          <input class="roboto dark caps wide" type="text" name="agttitle" value="Broker - Owner | Realtor">
+          <input class="roboto dark wide" type="text" name="website" value="www.WhiteSandsFL.com">
+        </div>
+        <input type='file' id="imgInp2" accept="image/*" />
+        <img id="agtImg" src="img/agent.jpg" alt="Agent Image" />
+      </footer>
+    </section>
+    <h1 class="labelback">BACK</h1>
+    <section id="back">
+      <section id="back-left">
+        <div id="back-prop-info">
+          <input class="roboto tan medium-wide bold" type="text" name="backaddress1" value="4275 Acorn Circle">
+          <input class="roboto tan medium-wide bold" type="text" name="backaddress2" value="Sarasota, Florida">
+          <textarea class="roboto white" name="description" rows="22" cols="80">This spacious home sits on 1 acre of prime real estate in the middle of Sarasota within a small but highly sought after neighborhood and features one of the best floor plans for accommodating a large family or just entertaining guest.
+
+          Four Bedrooms, all with Custom Closets
+          4,267 Sq. Ft. Under Air
+          5,825 Sq. Ft. Total
+          3.5 Baths | Three Car Garage
+          Large Pool and Spa | New Roof
+          Listed at $669,900</textarea>
+        </div>
+        <input type='file' id="imgInp3" accept="image/*">
+        <img id="feat1" src="img/feat2.jpg" alt="Feature 1">
+        <input type='file' id="imgInp4" accept="image/*">
+        <img id="feat2" src="img/feat3.jpg" alt="Feature 1">
+        <input type='file' id="imgInp5" accept="image/*">
+        <img id="feat3" src="img/feat4.jpg" alt="Feature 1">
+        <div id="back-logo">
+          <img src="img/WhiteSands_white.svg" alt="White Sands Logo">
+          <input class="roboto white medium-wide" type="text" name="companyaddress" value="1730 Stickney Point Road">
+          <input class="roboto white medium-wide" type="text" name="companyaddress2" value="Sarasota, Florida 34231">
+          <textarea class="roboto white" name="disclosure" rows="3" cols="80">If your property is currently listed by another broker, please do not consider this a solicitation.</textarea>
+        </div>
+      </section>
+      <section id="back-right">
+        <div id="back-right-top">
+          <p class="roboto tan bold" id="selling">Are You Thinking of Selling?</p>
+          <p class="roboto dark medium-wide">Ask About Our <span class="green bold">89 Point Marketing Plan</span> Custom Designed to Bring Qualified Buyers to Your Home.</p>
+        </div>
+        <div id="back-right-second">
+          <p class="roboto dark medium-wide">Please call me today for the <span class="green bold">Current Market Value</span> of your home.</p>
+        </div>
+        <div id="back-right-third">
+          <input class="roboto tan medium-wide caps bold" type="text" name="agentback" value="Michael Burke">
+          <input class="roboto tan medium-wide caps bold" type="text" name="phoneback" value="941.345.3953">
+          <input class="roboto dark caps medium-wide" type="text" name="agttitleback" value="Broker-Owner  |  Realtor">
+          <input class="roboto dark medium-wide" type="text" name="company" value="White Sands Realty Group">
+        </div>
+        <div id="back-right-fourth">
+          <input class="roboto tan medium-wide bold" type="text" name="email" value="MBurke@WhiteSandsFL.com">
+          <input class="roboto tan medium-wide bold" type="text" name="websiteback" value="www.WhiteSandsFL.com">
+        </div>
+        <div id="postage">
+          <p class="roboto">PRSRT STD</p>
+          <p class="roboto">U.S. POSTAGE</p>
+          <p class="roboto">PAID</p>
+          <p class="roboto">MANASOTA FL</p>
+          <p class="roboto">PERMIT 1450</p>
+        </div>
+        <img id="agtImg2" src="img/agent.jpg" alt="agent headshot">
+        <img id="mark2" src="img/mark2.svg" alt="mark2">
+      </section>
+    </section>
+    <button id="render" type="button" name="button">Render Images</button>
+    <img id="front-result" src="">
+    <img id="back-result" src="">
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="js/vendor/dom-to-image.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

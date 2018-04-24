@@ -1,0 +1,576 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+/* cyrillic */
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Caveat Regular'), local('Caveat-Regular'), url(https://fonts.gstatic.com/s/caveat/v4/Wnz6HAc5bAfYB2Q7YjYYmg8.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Caveat Regular'), local('Caveat-Regular'), url(https://fonts.gstatic.com/s/caveat/v4/Wnz6HAc5bAfYB2Q7aDYYmg8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Caveat Regular'), local('Caveat-Regular'), url(https://fonts.gstatic.com/s/caveat/v4/Wnz6HAc5bAfYB2Q7ZjYY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v5/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpHtKgS4.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v5/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYrXtKgS4.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v5/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYpntKgS4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v5/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYp3tKgS4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cormorant Garamond Regular'), local('CormorantGaramond-Regular'), url(https://fonts.gstatic.com/s/cormorantgaramond/v5/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+  background: gray;
+}
+
+body {
+  display: grid;
+  grid-template-columns: max-content max-content max-content 20vw;
+  grid-template-rows: max-content max-content max-content 10vh;
+  grid-gap: 1em;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+input[type=text], textarea, p {
+  width: 100%;
+  background: rgba(255, 0, 0, 0);
+  border: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+input[type=file] {
+  opacity: 0;
+  z-index: 12;
+}
+
+input[type=file]:hover {
+  cursor: pointer;
+
+}
+
+input.caveat {
+  font-family: "Caveat";
+  font-size: 4.5rem;
+  align-self: center;
+  text-align: center;
+}
+
+.cormorant {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 9rem;
+  font-weight: 600;
+  font-variant: small-caps;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.wide {
+  letter-spacing: .3em;
+}
+
+.medium-wide {
+  letter-spacing: .1em;
+}
+
+.white {
+  color: white;
+}
+
+.dark {
+  color: #555;
+}
+
+.black {
+  color: black;
+}
+
+.tan {
+  color: #c9ac82;
+}
+
+.green {
+  color: #62c5b5;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+#front, #back {
+  background-color: white;
+  color: #444;
+  height: 1725px;
+  width: 2625px;
+}
+/* 5.75in @ 300dpi 1725px */
+/* 8.75in @ 300dpi 2625px */
+
+#front-guide,
+#back-guide {
+  width: 100%;
+  opacity: .3;
+  z-index: 10;
+}
+
+#front-guide {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+#back-guide {
+  grid-row: 3;
+  grid-column: 2;
+}
+
+#front {
+  background: linear-gradient(to right, #c0a070, #ebdcbc, #ebdcbc, #c0a070);
+  grid-column: 2;
+  grid-row: 2;
+  display: grid;
+  grid-template-areas: "head"
+                       "photo"
+                       "foot";
+  grid-template-rows: 1.3fr 3fr 1.5fr;
+  grid-gap: 18px;
+}
+
+#back {
+  background: linear-gradient(#c0a070, #ebdcbc, #ebdcbc, #c0a070);
+  grid-column: 2;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  grid-gap: 18px;
+}
+
+#back-left {
+  grid-column: 1;
+  background: url('img/exoticbeach_withdeckchairs2.jpg');
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 19fr 15fr 0;
+  grid-template-rows: 1.2fr 9fr 9fr 9fr 11fr .7fr;
+  grid-gap: 34px;
+  overflow: hidden;
+}
+
+#back-prop-info {
+  grid-column: 2;
+  grid-row: 2/ span 4;
+  margin-top: 18px;
+}
+
+#back-right {
+  grid-column: 2;
+  background: #f8fafa;
+  display: grid;
+  grid-template-columns: 11fr 16fr 4.5fr 2fr;
+  grid-template-rows: 2fr 6fr 5fr 7fr 4fr 21fr;
+  grid-gap: 20px;
+  overflow: hidden;
+}
+
+#front > header {
+  grid-area: head;
+  background: linear-gradient(white, #62c5b5, #62c5b5, white);
+  display: grid;
+  grid-template-columns: 1fr 20fr 48fr 1fr;
+  grid-template-rows: 1fr 8fr;
+  overflow: hidden;
+}
+
+.mark {
+  grid-column: 2;
+  grid-row: 2 / span 1;
+  width: 100%;
+  margin-left: 10%;
+}
+
+#front > header > section {
+  grid-column: 3;
+  grid-row: 2;
+  margin-right: 6%;
+  margin-top: 15%;
+}
+
+#front > div {
+  grid-area: photo;
+  overflow: hidden;
+}
+
+#main-container {
+  margin-top: -20%;
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 1fr;
+}
+
+#mainImg, #imgInp {
+  grid-row: 2;
+  width: 99.5%;
+  margin: -10% auto 0;
+  grid-column: 1;
+  height: 100%;
+}
+
+#imgInp {
+  width: 70%;
+  margin-left: 30%;
+}
+
+#price-banner {
+  grid-row: 1;
+  background: #f8fafa;
+  transform: rotate(-15deg);
+  padding-left: 120px;
+  margin-left: -3%;
+  margin-top: 80%;
+}
+
+input[name=price-banner],
+input[name=price] {
+  width: 20%;
+  display: inline;
+  text-align: left;
+}
+
+#front > footer {
+  grid-area: foot;
+  background: linear-gradient(white, #62c5b5, #62c5b5, white);
+  display: grid;
+  grid-template-areas: "cut logo text photo cut"
+                       "cut cut cut cut cut";
+  grid-template-columns: 1fr 21fr 35fr 10fr 1.5fr;
+  grid-template-rows: 11fr 1fr;
+}
+
+#logo {
+  grid-column: 2;
+  align-self: flex-end;
+  margin-left: 20%;
+  margin-bottom: 20%;
+}
+
+#agtinfo {
+  align-self: flex-end;
+  margin-bottom: 20%;
+}
+
+#agtinfo > input {
+  font-weight: 500;
+}
+
+input[name=listedby]{
+}
+
+#agtinfo > input[name=agent]{
+  font-weight: 800;
+}
+
+#agtImg, #imgInp2 {
+  grid-area: photo;
+  grid-row: 1;
+  grid-column: 4;
+  position: relative;
+  width: 90%;
+  margin-left: 5%;
+  top: -20%;
+  height: 100%;
+}
+
+#agtImg {
+  border: solid 2px #ccc;
+  border-radius: 2px;
+}
+
+textarea[name=description] {
+  margin-top: 5%;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+#feat1,
+#feat2,
+#feat3,
+#imgInp3,
+#imgInp4,
+#imgInp5 {
+  grid-column: 3;
+  width: 100%;
+  height: 100%;
+  border: solid 2px #ccc;
+}
+
+#feat1, #imgInp3 {
+  grid-row: 2;
+}
+
+#feat2, #imgInp4 {
+  grid-row: 3;
+}
+
+#feat3, #imgInp5 {
+  grid-row: 4;
+}
+
+#back-logo {
+  grid-column: 3;
+  grid-row: 5;
+}
+
+#back-logo > img {
+  display: block;
+  margin: 0 auto 2%;
+  width: 85%;
+}
+
+input[name=companyaddress], input[name=companyaddress2] {
+  margin: 0;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+textarea[name=disclosure]{
+  font-weight: 400;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#back-right-top {
+  grid-row: 2;
+  grid-column: 1 / span 3;
+  margin-left: 30px;
+}
+
+#back-right > div > p,
+#back-right > div > input {
+  font-size: 2.7rem;
+}
+
+#selling {
+  font-size: 3.5rem!important;
+}
+
+#back-right-second {
+  grid-row: 3;
+  grid-column: 2 / span 2;
+}
+
+#back-right-third {
+  grid-row: 4;
+  grid-column: 2 / span 2;
+}
+
+#back-right-fourth {
+  grid-row: 5;
+  grid-column: 2 / span 2;
+}
+
+#postage {
+  grid-row: 6;
+  grid-column: 3;
+  border: solid 3px;
+  height: 18%;
+  padding: 4px;
+}
+
+#postage > p {
+  text-align: center;
+  font-size: 1.3rem!important;
+  font-weight: 600;
+}
+
+#agtImg2 {
+  grid-row: 3 / span 2;
+  grid-column: 1;
+  width: 85%;
+  margin-left: 10%;
+}
+
+#mark2 {
+  grid-row: 5 / span 2;
+  grid-column: 1 / span 2;
+  margin-left: -23%;
+  height: 100%;
+  width: auto;
+  opacity: .5;
+}
+
+.labelfront,
+.labelback {
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
+  grid-column: 1;
+  grid-row: 2;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+}
+
+.labelback {
+  grid-row: 3;
+}
+
+.toplabel {
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.toplabel:nth-child(n+2) {
+  grid-column: 3;
+}
+
+#render {
+  height: 50%;
+  font-family: "Roboto" sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+  margin: auto auto 0;
+}
+
+#front-result {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+#back-result {
+  grid-row: 3;
+  grid-column: 3;
+}
+
+#instructions {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+@media print and (min-resolution: 300dpi) {
+  section {
+    height: 1725px;
+    width: 2625px;
+  }
+}
