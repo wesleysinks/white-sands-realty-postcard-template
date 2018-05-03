@@ -307,7 +307,7 @@ input.caveat {
 }
 
 #front > header > section {
-  grid-column: 3;
+  grid-column: 2 / span 2;
   grid-row: 2;
   margin-right: 6%;
   margin-top: 15%;
@@ -403,6 +403,11 @@ input[name=listedby]{
   border-radius: 2px;
 }
 
+input[name=backaddress1],
+input[name=backaddress2] {
+  font-size: 2.4rem;
+}
+
 textarea[name=description] {
   margin-top: 5%;
   font-size: 2.3rem;
@@ -484,7 +489,7 @@ textarea[name=disclosure]{
 
 #back-right-fourth {
   grid-row: 5;
-  grid-column: 2 / span 2;
+  grid-column: 1 / span 3;
 }
 
 #agtImg2 {
