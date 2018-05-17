@@ -170,7 +170,8 @@ input.caveat {
   font-family: "Cormorant Garamond", serif;
   font-size: 9rem;
   font-weight: 600;
-  font-variant: small-caps;
+  text-transform: uppercase;
+//  font-variant: small-caps;
 }
 
 .roboto {
@@ -300,8 +301,8 @@ input.caveat {
 #front > header > section {
   grid-column: 2 / span 2;
   grid-row: 2;
-  margin-right: 6%;
-  margin-top: 15%;
+  margin-right: 2%;
+  margin-top: 2%;
 }
 
 #front > div {
@@ -333,16 +334,21 @@ input.caveat {
   grid-row: 1;
   background: #f8fafa;
   transform: rotate(-15deg);
-  padding-left: 120px;
+  padding-left: 90px;
   margin-left: -3%;
-  margin-top: 80%;
+  margin-top: 15%;
 }
 
 input[name=price-banner],
 input[name=price] {
-  width: 20%;
+  width: 22%;
   display: inline;
   text-align: left;
+}
+
+input[name=price-banner]{
+  text-align: right;
+  padding-right: 30px;
 }
 
 #front > footer {
@@ -359,12 +365,12 @@ input[name=price] {
   grid-column: 2;
   align-self: flex-end;
   margin-left: 20%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 #agtinfo {
   align-self: flex-end;
-  margin-bottom: 20%;
+  margin-bottom: 8%;
 }
 
 #agtinfo > input {
